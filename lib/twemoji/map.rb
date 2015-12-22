@@ -861,7 +861,7 @@ module Twemoji
   ":letter_w:"                        => "1f1fc",
   ":letter_x:"                        => "1f1fd",
   ":letter_y:"                        => "1f1fe",
-  ":letter_z:"                        => "1f1ff".
+  ":letter_z:"                        => "1f1ff",
 
   # Custom additions
   # ":space:"                           => "",
