@@ -833,7 +833,36 @@ module Twemoji
   ":white_square_button:"             => "1f533",
   ":womens:"                          => "1f6ba",
   ":x:"                               => "274c",
-  ":zero:"                            => "30-20e3"
+  ":zero:"                            => "30-20e3",
+
+  # Added extra emojis that shouldn't really be used
+  ":letter_a:"                        => "1f1e6",
+  ":letter_b:"                        => "1f1e7",
+  ":letter_c:"                        => "1f1e8",
+  ":letter_d:"                        => "1f1e9",
+  ":letter_e:"                        => "1f1ea",
+  ":letter_f:"                        => "1f1eb",
+  ":letter_g:"                        => "1f1ec",
+  ":letter_h:"                        => "1f1ed",
+  ":letter_i:"                        => "1f1ee",
+  ":letter_j:"                        => "1f1ef",
+  ":letter_k:"                        => "1f1f0",
+  ":letter_l:"                        => "1f1f1",
+  ":letter_m:"                        => "1f1f2",
+  ":letter_n:"                        => "1f1f3",
+  ":letter_o:"                        => "1f1f4",
+  ":letter_p:"                        => "1f1f5",
+  ":letter_q:"                        => "1f1f6",
+  ":letter_r:"                        => "1f1f7",
+  ":letter_s:"                        => "1f1f8",
+  ":letter_t:"                        => "1f1f9",
+  ":letter_u:"                        => "1f1fa",
+  ":letter_v:"                        => "1f1fb",
+  ":letter_w:"                        => "1f1fc",
+  ":letter_x:"                        => "1f1fd",
+  ":letter_y:"                        => "1f1fe",
+  ":letter_z:"                        => "1f1ff"
+
   }.each { |k, v| k.freeze; v.freeze }.freeze
 
   # Emoji Codepoint to Text mappings. This hash is frozen.
