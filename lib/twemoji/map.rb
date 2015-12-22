@@ -373,7 +373,7 @@ module Twemoji
   ":doughnut:"                        => "1f369",
   ":dress:"                           => "1f457",
   ":dvd:"                             => "1f4c0",
-  ":e_mail:"                          => "1f4e7",
+  # ":e_mail:"                          => "1f4e7",
   ":egg:"                             => "1f373",
   ":eggplant:"                        => "1f346",
   ":electric_plug:"                   => "1f50c",
@@ -861,7 +861,15 @@ module Twemoji
   ":letter_w:"                        => "1f1fc",
   ":letter_x:"                        => "1f1fd",
   ":letter_y:"                        => "1f1fe",
-  ":letter_z:"                        => "1f1ff"
+  ":letter_z:"                        => "1f1ff".
+
+  # Custom additions
+  # ":space:"                           => "",
+  # ":open_bracket"                     => "",
+  # ":open_bracket"                     => "",
+
+  # Corrections to match emoji-data
+  ":e-mail:"                          => "1f4e7"
 
   }.each { |k, v| k.freeze; v.freeze }.freeze
 
